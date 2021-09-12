@@ -1,7 +1,25 @@
-/* body {
-    color: brown;
-} */
-
 .center > i {
     color: #ee6e73;
+}
+
+.card {
+    height: 400px;
+    overflow: hidden;
+}
+.card-image {
+    height: 250px;
+    width: 100%;
+}
+.card-image img{
+    height: 250px;
+    max-width: 100%;
+    /* max-height: 100%; */
+}
+.card .card-content {
+    height: 75px;
+    padding: 6px;
+}
+.card-action {
+    height: 75px;
+    float: left;
 }
